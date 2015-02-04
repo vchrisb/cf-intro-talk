@@ -27,15 +27,16 @@ Show in a demo
 ## Cloud Foundry is a PaaS
 <br/>
 
-SaaS - Features <!-- .element: class="fragment boxes" data-fragment-index="3" -->
+SaaS - Features <!-- .element: class="fragment boxes" data-fragment-index="4" -->
 
-PaaS - Applications <!-- .element: class="boxes" -->
+Platform - Applications <!-- .element: class="fragment boxes" data-fragment-index="3"-->
 
-IaaS - VMs <!-- .element: class="fragment boxes" data-fragment-index="2" -->
+Infrastructure - VMs <!-- .element: class="fragment boxes" data-fragment-index="2" -->
 
-Bare Metal - CPU & Memory<!-- .element: class="fragment boxes" data-fragment-index="1" -->
+Bare Metal - Server<!-- .element: class="fragment boxes" data-fragment-index="1" -->
 
 Note:
+Now that you have at least a vague idea about what to do with Cloud Foundry, let's get a bit more specific. To be more specific, I want to dig a bit into the terminology here. Cloud Foundry is a Platform. Let's give that some context. In your typical data center, you typically start with bare metal.
 - Droplet is read-only and is cached to facilitate quick scaling and recovery
 - Droplet generated with Buildpack
 - Warden is similar to Docker, uses same Linux Kernel tools (cgroups, namespaces)
@@ -44,11 +45,14 @@ Note:
 
 ### Quick History Lesson
 
-* 2007 Heroku and Google App Engine
-* 2010 Cloud Foundry by VMWare
-* 2012 Pivotal takes over
-* 2014 Cloud Foundry Foundation
-* 2015 CF sells like "warme Semmeln"
+<br/>
+
+* 2007 Heroku and Google App Engine <!-- .element: class="fragment" data-fragment-index="1" -->
+* 2009 Cloud Foundry bought by VMWare <!-- .element: class="fragment" data-fragment-index="2" -->
+* 2011 Cloud Foundry OSS <!-- .element: class="fragment" data-fragment-index="3" -->
+* 2012 Pivotal takes over <!-- .element: class="fragment" data-fragment-index="4" -->
+* 2014 Cloud Foundry Foundation <!-- .element: class="fragment" data-fragment-index="5" -->
+* 2015 CF "geht weg wie warme Semmeln" (sells well) <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Note:
 - First PaaS (Heroku, Google App Engine)
@@ -90,11 +94,6 @@ Note:
 
 --
 
-## How does it work
-
-![Pushing](./images/pushing.png)
-
---
 
 ## How does it work #1
 
@@ -203,7 +202,7 @@ Note:
 
 ## Diego
 
-* Rewrite of runners
+* Rewrite of DEA
 * Enables support for Docker and .Net
 * Better distribution and healing of instances
 
@@ -253,6 +252,7 @@ Topic - you decide:
 * Running CF
 * Microservices and CF
 * Developing for the Cloud - Pro Tips
+* Comparison with other PaaS
 
 Note:
 - If you want to understand the internals of Cloud Foundry
