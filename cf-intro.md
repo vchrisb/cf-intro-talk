@@ -190,12 +190,12 @@ Note:
 
 ---
 
-## The Future
+## What's coming to CF
 
 * Diego and Lattice
 * Firehose
 * Intelligent routing
-* More Security
+* More Security (as always)
 * ...
 
 --
@@ -220,43 +220,19 @@ Note:
 
 ---
 
-## Containers vs Buildpacks
-
-*Containers* are better when:
-
-* Developers require more control
-* Developers know Ops/Docker
-* Time to Market is important
-
----
-
-## Containers vs Buildpacks
-
-*Buildpacks* are better when:
-
-* Ops requires more control
-* Developers focus on application
-* Low maintenance cost is important
-
-Note:
-- I am biased towards Buildpacks, but there are good reasons to push containers
-
----
-
 ## Next talk
 
 Topic - you decide:
 
 * Architecture Deep Dive
-* Docker and CF
-* Running CF
+* ~~Docker and CF~~
+* Running, operating, and monitoring CF
 * Microservices and CF
 * Developing for the Cloud - Pro Tips
 * Comparison with other PaaS
 
 Note:
 - If you want to understand the internals of Cloud Foundry
-- How can you use Docker and CF together
 - How do we run PWS
 - Very popular topic and there are lots os interesting strategies and patterns
 - How do I write an app that works well on CF, plus some ideas about running it like Blue-Green-Deployments, Microservices, Netflix OSS...
