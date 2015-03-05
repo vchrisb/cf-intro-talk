@@ -6,6 +6,8 @@
 
 Note:
 Welcome and Introduction
+This is our first meetup. Happy about the crowd. Trying to do this monthly, but have to see that there is no overlap to the other meetups, microservices, docker, core os.  
+Ask for job opportunities
 Thank Hybris
 Mention shirts
 
@@ -22,6 +24,8 @@ Show in a demo
 - change locally
 - push again
 
+This is hosted Cloud Foundry (public), you can also install it
+
 ---
 
 ## Cloud Foundry is a PaaS
@@ -36,10 +40,6 @@ Infrastructure - VMs <!-- .element: class="fragment boxes" data-fragment-index="
 Bare Metal - Server<!-- .element: class="fragment boxes" data-fragment-index="1" -->
 
 Note:
-Now that you have at least a vague idea about what to do with Cloud Foundry, let's get a bit more specific. To be more specific, I want to dig a bit into the terminology here. Cloud Foundry is a Platform. Let's give that some context. In your typical data center, you typically start with bare metal.
-- Droplet is read-only and is cached to facilitate quick scaling and recovery
-- Droplet generated with Buildpack
-- Warden is similar to Docker, uses same Linux Kernel tools (cgroups, namespaces)
 
 ---
 
@@ -55,10 +55,11 @@ Now that you have at least a vague idea about what to do with Cloud Foundry, let
 * 2015 CF "geht weg wie warme Semmeln" (sells well) <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Note:
-- First PaaS (Heroku, Google App Engine)
-- Inception of CF
-- Pivotal
-- Foundation
+- I remember my first interaction with GAE, appcfg. mind blowing
+- CF incepted by Derek Collison and then bought by VMWare
+- Pivotal changed engineering to pairing and test driving
+- Foundation has lots of money and weight
+
 
 ---
 
@@ -66,11 +67,22 @@ Note:
 
 ![Cloud Foundry Foundation - Part1](./images/foundation1.png)
 
+Note:
+- Docker
+- Anynines
+
+
 ---
 
 ### Foundation #2
 
 ![Cloud Foundry Foundation - Part2](./images/foundation2.png)
+
+
+Note:
+- SAP
+- IBM (co-opetition)
+- buch of other big names
 
 ---
 
