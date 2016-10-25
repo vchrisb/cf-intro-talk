@@ -1,0 +1,6 @@
+---
+applications:
+- name: cf-intro
+  command: node web.js
+  buildpack: nodejs_buildpack
+  memory: 64m
